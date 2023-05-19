@@ -1,0 +1,128 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "The purpose of this website is to host online cognition experiments for teaching and research purposes.\nWe are following in the steps of other “citizen science” projects, with the goal of opening our research process to include our local community, and the online public at large.\nWe hope that participating in our experiments will be an interesting and educational experience."
+  },
+  {
+    "objectID": "about.html#faqs",
+    "href": "about.html#faqs",
+    "title": "About",
+    "section": "FAQs",
+    "text": "FAQs\n\nWhat is this website?\nThis website shares access to participate in current and previous cognitive/behavioral experiments conducted by the Computational Cognition Lab at Brooklyn College, run by Dr. Matthew Crump.\n\n\nTell me more about the purpose of your research\nWe conduct experiments to advance knowledge about basic cognitive abilities, such as learning, memory, attention, and skilled performance (like typing on a keyboard, or playing a guitar). Any research activities that result in publications are shared on the lab publication page.\n\n\nWhat can I expect as participant?\nEach experiment involves different tasks and tests unique hypotheses about cognitive processes. In general, each experiment info page will outline the basic task and what to expect as a participant.\nMany of our experiments involve a series of trials where you will be presented with a stimulus (e.g., a word, symbol, or picture), and asked to perform some kind of response with the keyboard or a mouse. An individual experiment usually takes 5 - 20 minutes to complete. Estimated times are included for each experiment.\n\n\nCan I stop participating at any time?\nAbsolutely, simply close the webpage for the task.\n\n\nWhat kind of data is collected?\nWe use a javascript library called jspsych to program our experiments for web browsers. We collect data that relates to user interactions with the experiment, such as the timing and accuracy of keyboard button presses, or mouse movements that correspond to task-related behavior.\nWe do not collect identifying information.\nThroughout the experiment data is saved as a javascript variable on the users computer, and sent to our experiment server as a JSON object. This data file represents the trial-by-trial interactions from the experiment, including the stimuli presented at each interval, and the responses (if any) associated with each trial. Individual users are assigned a random alphanumeric key that is coded into the data file.\n\n\nDo I get to see my results?\nGood question! This will depend on the particular experiment that you participate in. Many of the experiments on the site are designed for students learning about human cognition. These experiments will often present individual results at the end of the experiment. Other experiments will not display individual results.\nIt’s important to note that individual results from a given task may not be very meaningful. For example, human behavior is variable and our task may not provide a precise measure at the level of a single individual. However, by combining performance across many individuals it is possible to see more reliable trends.\n\n\nIs there any compensation for participating?\nWe are creating this website for people interested in participating on a free volunteer basis.\nWe are very grateful for your participation! We hope we can return the favor by sharing our research process and findings from people like you who have helped us learn more about human cognition!\n\n\nWhat do we do with the data?\nWe submit the data to various forms of statistical analysis to understand how people performed the task. In general, our tasks employ experimental manipulations and we are most interested in how task performance changes between the experimental manipulations.\nOne overarching goal is improve our theoretical understanding of basic cognitive processes. For example, theories of memory may imply that a particular pattern of performance ought to be observed in one of our experimental conditions. By conducting the experiment we can determine whether or not the pattern occurs, which in turn helps inform our theoretical understanding.\nIn general, a given research project involves a series of experiments where we collect performance data from people who volunteer to participate in our tasks. After data collection and analysis is complete we write up our results in the form of a research manuscript that is submitted to a peer-reviewed scientific journal for publication.\nThe publication process can take a while. For example, if you contributed data to an experiment as a participant today, it could take up to a year or longer for the research cycle to produce a publication from the lab that is available for you to read (e.g., on our publication page).\nWe also share as much of our research as possible, including the data from our experiments."
+  },
+  {
+    "objectID": "about.html#sharing-our-science",
+    "href": "about.html#sharing-our-science",
+    "title": "About",
+    "section": "Sharing our science",
+    "text": "Sharing our science\nThe lab is committed to sharing as much of our research process as possible, including data from our experiments. Below we describe a few reasons why we think sharing is important and what we do and don’t share.\n\nWhy do we share our work?\nThe Computational Cognition lab is run by Dr. Matthew Crump at Brooklyn College of CUNY. CUNY is a public institution, and research funding is almost always obtained through tax-payer funded institutions (e.g., NSF, or internal CUNY grants). As a result, it is important to the lab that research produced through public funding is available to the public who funded it. At a minimum, we are committed to sharing the outputs of our research in the form of published manuscripts. Some of the papers we publish may be behind a paywall on the official journal website, but they are also available for free on the lab publication page.\nSharing our research process is also helpful to the scientific community. For example, if we share our methods, analyses, and data, it is possible for other researchers to double-check our findings and correct mistakes. Our materials (usually computer code for programming the experiments, or for analyzing data) may also be helpful examples for other researchers who are attempting to answer similar questions. If we share our work it is also possible for other researchers to replicate what we are doing, and they find similar results to our own, then everyone can be more confident in the findings.\n\n\nWhat we share/ do not share\nAt a minimum we share the finished products of a research project in the form of a published manuscript.\nWhen we have the resources and time to share additional material we share as much as we can. For example, we would share the code we used to conduct each experiment (usually javascript), the code we used to conduct the statistical analysis (usually R), and the de-identified (anonymous) raw data files from each participant in the experiment.\nWe typically collect generic demographic information from each participant. Individual participants are assigned a random alphanumeric code when they complete an experiment, and this code is embedded into the data file. This process is anonymous even to us, because we don’t know who completes our experiments or what random code they will be assigned.\nWe do not collect identifying information such as your name.\nWhen we share our research process we typically bundle all of the assets from research project together and upload them to an online repository, like the open science framework, or github. This allows other interested researchers to obtain our materials and use them to aid their research process."
+  },
+  {
+    "objectID": "about.html#contact",
+    "href": "about.html#contact",
+    "title": "About",
+    "section": "Contact",
+    "text": "Contact\nIf you have further questions please contact Dr. Matthew Crump at mcrump@brooklyn.cuny.edu."
+  },
+  {
+    "objectID": "experiments/Cognition lab/flanker/Flanker.html",
+    "href": "experiments/Cognition lab/flanker/Flanker.html",
+    "title": "Flanker Task",
+    "section": "",
+    "text": "This is a replication of Eriksen and Eriksen (1974). The task involves responding to a target letter as quickly and accurately as possible. Importantly, the target letter may be “flanked” by distractor letters presented on both sides of the target.\n\nA general question was whether responses to the target letter would be influenced by the presence of distracting letter."
+  },
+  {
+    "objectID": "experiments/Cognition lab/flanker/Flanker.html#background",
+    "href": "experiments/Cognition lab/flanker/Flanker.html#background",
+    "title": "Flanker Task",
+    "section": "",
+    "text": "This is a replication of Eriksen and Eriksen (1974). The task involves responding to a target letter as quickly and accurately as possible. Importantly, the target letter may be “flanked” by distractor letters presented on both sides of the target.\n\nA general question was whether responses to the target letter would be influenced by the presence of distracting letter."
+  },
+  {
+    "objectID": "experiments/Cognition lab/flanker/Flanker.html#try-the-flanker-experiment",
+    "href": "experiments/Cognition lab/flanker/Flanker.html#try-the-flanker-experiment",
+    "title": "Flanker Task",
+    "section": "Try the Flanker Experiment",
+    "text": "Try the Flanker Experiment\nTry a flanker task"
+  },
+  {
+    "objectID": "experiments/Cognition lab/flanker/Flanker.html#understanding-the-experiment",
+    "href": "experiments/Cognition lab/flanker/Flanker.html#understanding-the-experiment",
+    "title": "Flanker Task",
+    "section": "Understanding the experiment",
+    "text": "Understanding the experiment"
+  },
+  {
+    "objectID": "experiments/Cognition lab/flanker/Flanker.html#predictions",
+    "href": "experiments/Cognition lab/flanker/Flanker.html#predictions",
+    "title": "Flanker Task",
+    "section": "Predictions",
+    "text": "Predictions"
+  },
+  {
+    "objectID": "experiments/Cognition lab/flanker/Flanker.html#results",
+    "href": "experiments/Cognition lab/flanker/Flanker.html#results",
+    "title": "Flanker Task",
+    "section": "Results",
+    "text": "Results"
+  },
+  {
+    "objectID": "experiments/Cognition lab/index.html",
+    "href": "experiments/Cognition lab/index.html",
+    "title": "Cognition Lab",
+    "section": "",
+    "text": "This section contains cognition experiments intended mostly for educational purposes, although they may eventually serve some research purpose.\nMost the experiments in this section are designed as a companion to Dr. Crump’s Introduction to Cognitive Psychology course. The goal is to have online demo experiments that students can complete for each learning module in the course.\nParticipating in a demo experiment is a great way to learn more about a particular finding in cognition. It will help you understand what it is was like to be a participant in the study, and this will help you better understand the meaning of findings associated with the study.\n\n\n\n\n\n  \n\n\n\n\nFlanker Task\n\n\n\n\n\n\n\nattention\n\n\n\n\nA selective attention task to identify target letters among distractor letters as quickly and accurately as possible.\n\n\n\n\n\n\nMatt Crump\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "experiments/New Research/Directed Forgetting/Directed_forgetting.html",
+    "href": "experiments/New Research/Directed Forgetting/Directed_forgetting.html",
+    "title": "Directed forgetting for pictures of natural scenes",
+    "section": "",
+    "text": "Participate in the experiment\n  \n  \n    \n    \n    Attempt to forget and remember 120 pictures of natural scenes\n    \n    \n    Begin\n    \n  \n  \n    Approximately 20 minutes"
+  },
+  {
+    "objectID": "experiments/New Research/Directed Forgetting/Directed_forgetting.html#try-the-experiment",
+    "href": "experiments/New Research/Directed Forgetting/Directed_forgetting.html#try-the-experiment",
+    "title": "Directed forgetting for pictures of natural scenes",
+    "section": "",
+    "text": "Participate in the experiment\n  \n  \n    \n    \n    Attempt to forget and remember 120 pictures of natural scenes\n    \n    \n    Begin\n    \n  \n  \n    Approximately 20 minutes"
+  },
+  {
+    "objectID": "experiments/New Research/Directed Forgetting/Directed_forgetting.html#background",
+    "href": "experiments/New Research/Directed Forgetting/Directed_forgetting.html#background",
+    "title": "Directed forgetting for pictures of natural scenes",
+    "section": "Background",
+    "text": "Background\nThis is a replication of experiment 1 from Ahmad, Tan, and Hockley (2019). In brief, participants were presented with 120 pictures of natural scenes. Each picture was presented for two seconds, followed randomly by the letter F or R for three seconds.\nWhen you see the letter F, the instructions are to “FORGET” the previous image. When you see the letter R, the instructions are to “REMEMBER” the previous image. At the end of the encoding phase, participants are given a recognition memory test for all of the pictures they saw.\nA general purpose of this task is to measure people’s ability to intentionally forget versus remember information. Most prior research into this ability used word stimuli, which are known to be generally less memorable that picture stimuli. A more specific purpose is to examine whether people are capable of intentionally forgetting pictures, and if so, to determine what aspects of picture information may be forgotten.\nThe study we are replicating was previously conducted by participants who visited a lab in person. The current study is an attempt to replicate the previous findings in an online population."
+  },
+  {
+    "objectID": "experiments/New Research/Directed Forgetting/Directed_forgetting.html#browser-requirements",
+    "href": "experiments/New Research/Directed Forgetting/Directed_forgetting.html#browser-requirements",
+    "title": "Directed forgetting for pictures of natural scenes",
+    "section": "Browser requirements",
+    "text": "Browser requirements\nPlease complete this task on a desktop computer using firefox or chrome."
+  },
+  {
+    "objectID": "experiments/New Research/Directed Forgetting/Directed_forgetting.html#faqs",
+    "href": "experiments/New Research/Directed Forgetting/Directed_forgetting.html#faqs",
+    "title": "Directed forgetting for pictures of natural scenes",
+    "section": "FAQs",
+    "text": "FAQs\nThe link to the experiment contains a consent form that explains how we will use the data in more detail. We provide even more information on our about page. Thank you for considering participation in this experiment."
+  },
+  {
+    "objectID": "experiments/New Research/index.html",
+    "href": "experiments/New Research/index.html",
+    "title": "New Research",
+    "section": "",
+    "text": "This section contains links to participate in our most current ongoing experiments. Visit the about page for general information about participation.\nThank you for your participation!\n\n\n\n\n\n  \n\n\n\n\nDirected forgetting for pictures of natural scenes\n\n\n\n\n\n\n\nmemory\n\n\n\n\nAttempt to intentionally forget or remember pictures of natural scenes. Takes about 20 minutes\n\n\n\n\n\n\nDrew Shives, Matthew Crump\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Crump Lab Online Experiments",
+    "section": "",
+    "text": "Welcome to the Crump Lab online cognition experiment headquarters.\nAnyone over the age of 18 is invited to participate in the experiments listed here.\nAll of the data that we collect is completely anonymous, and is made publicly available for research and teaching goals. Learn more about this project and how we use the data on the about page."
+  }
+]

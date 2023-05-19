@@ -1,0 +1,31 @@
+---
+title: "Flanker Task"
+author: "Matt Crump"
+description: "A selective attention task to identify target letters among distractor letters as quickly and accurately as possible."
+categories: "attention"
+image: "imgs/flanker.png"
+resources: 
+  - "flanker.html"
+  - "assets"
+bibliography: references.bib
+---
+
+## Background
+
+This is a replication of @eriksen1974. The task involves responding to a target letter as quickly and accurately as possible. Importantly, the target letter may be "flanked" by distractor letters presented on both sides of the target. 
+
+![](imgs/flanker.png)
+
+A general question was whether responses to the target letter would be influenced by the presence of distracting letter. 
+
+## Try the Flanker Experiment
+
+[Try a flanker task](flanker.html)
+
+## Understanding the experiment
+
+## Predictions
+
+## Results
+
+## Appendix

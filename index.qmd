@@ -1,11 +1,18 @@
 ---
-title: "experiments"
+title: "Crump Lab Online Experiments"
 ---
 
-This is a Quarto website.
-
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
-
-```{r}
-1 + 1
+::: column-margin
+```{r, echo=FALSE}
+knitr::include_graphics("imgs/ccl.png")
 ```
+:::
+
+
+Welcome to the [Crump Lab](https://crumplab.com) online cognition experiment headquarters.
+
+Anyone over the age of 18 is invited to participate in the experiments listed here.
+
+All of the data that we collect is completely anonymous, and is made publicly available for research and teaching goals. Learn more about this project and how we use the data on the [about](about.qmd) page.
+
+

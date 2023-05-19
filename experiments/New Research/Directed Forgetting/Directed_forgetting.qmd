@@ -1,0 +1,52 @@
+---
+title: "Directed forgetting for pictures of natural scenes"
+author:
+  - Drew Shives
+  - Matthew Crump
+description: "Attempt to intentionally forget or remember pictures of natural scenes. Takes about 20 minutes"
+categories: "memory"
+image: "imgs/DF.png"
+bibliography: references.bib
+---
+
+## Try the experiment
+
+```{=html}
+<div class="card text-center">
+  <div class="card-header">
+    Participate in the experiment
+  </div>
+  <div class="card-body">
+    <h5 class="card-title">
+    Directed Forgetting
+    </h5>
+    <p class="card-text">
+    Attempt to forget and remember 120 pictures of natural scenes
+    </p>
+    <a href="#" class="btn btn-primary">
+    Begin
+    </a>
+  </div>
+  <div class="card-footer text-muted">
+    Approximately 20 minutes 
+  </div>
+</div>
+```
+
+## Background
+
+This is a replication of experiment 1 from @ahmad2019. In brief, participants were presented with 120 pictures of natural scenes. Each picture was presented for two seconds, followed randomly by the letter F or R for three seconds.
+
+When you see the letter F, the instructions are to "FORGET" the previous image. When you see the letter R, the instructions are to "REMEMBER" the previous image. At the end of the encoding phase, participants are given a recognition memory test for all of the pictures they saw.
+
+A general purpose of this task is to measure people's ability to intentionally forget versus remember information. Most prior research into this ability used word stimuli, which are known to be generally less memorable that picture stimuli. A more specific purpose is to examine whether people are capable of intentionally forgetting pictures, and if so, to determine what aspects of picture information may be forgotten.
+
+The study we are replicating was previously conducted by participants who visited a lab in person. The current study is an attempt to replicate the previous findings in an online population.
+
+## Browser requirements
+
+Please complete this task on a desktop computer using firefox or chrome.
+
+## FAQs
+
+The link to the experiment contains a consent form that explains how we will use the data in more detail. We provide even more information on our [about page](../../../about.qmd). Thank you for considering participation in this experiment.

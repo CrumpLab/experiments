@@ -1,0 +1,24 @@
+---
+title: "New Research"
+order: 1
+listing: 
+  type: default
+  id: new_research_listing
+  categories: true
+page-layout: full
+---
+
+::: column-margin
+```{r, echo=FALSE}
+knitr::include_graphics("../../imgs/ccl.png")
+```
+:::
+
+This section contains links to participate in our most current ongoing experiments. Visit the [about](../../about.qmd) page for general information about participation. 
+
+Thank you for your participation!
+
+---
+
+::: {#new_research_listing}
+:::

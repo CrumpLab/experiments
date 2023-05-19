@@ -1,17 +1,33 @@
 project:
   type: website
+  output-dir: docs
+  preview:
+    port: 4200
+    browser: true
+    navigate: true
+  render:
+    - "*.qmd"
+  resources: 
+    - "jspsych/"
 
 website:
   title: "experiments"
   navbar:
     left:
       - href: index.qmd
-        text: Home
+        text: Participate
+      - href: experiments/New Research/index.qmd
+        text: New Research
+      - href: experiments/Cognition Lab/index.qmd
+        text: Intro Cognition Lab
+    right: 
       - about.qmd
+  page-footer: |
+    Brought to you by the Computational Cognition Lab at Brooklyn College of CUNY <https://crumplab.com>
 
 format:
   html:
-    theme: cosmo
+    theme: minty
     css: styles.css
     toc: true
 
