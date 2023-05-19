@@ -1,0 +1,52 @@
+---
+title: "The self reference effect in recall"
+author:
+  - Shifa Maqsood
+  - Matthew Crump
+description: "Make judgements about adjectives that describe people, then attempt to recall the words you saw. Takes about 10 minutes"
+image: 'imgs/memory.jpg'
+categories: "memory"
+bibliography: references.bib
+---
+
+## Try the experiment
+
+```{=html}
+<div class="card text-center">
+  <div class="card-header">
+    Participate in the experiment
+  </div>
+  <div class="card-body">
+    <h5 class="card-title">
+    Self-reference effect
+    </h5>
+    <p class="card-text">
+    Make judgments about words and then attempt to remember the words you saw
+    </p>
+    <a href="#" class="btn btn-primary">
+    Begin
+    </a>
+  </div>
+  <div class="card-footer text-muted">
+    Approximately 10 minutes 
+  </div>
+</div>
+```
+
+## Information
+
+This experiment involves a memory test for words. Here's what to expect:
+
+1. You will be shown a consent form and asked to fill out basic demographic information
+2. There are two parts to the task. 
+
+- In the study phase you will be shown about 40 words, one at a time. Each word will be paired with a question that asks you judge a property of the word (by clicking yes or no with your mouse).
+- In the memory test you will be asked to remember as many words as you can by writing by them into a text box.
+
+## Browser requirements
+
+Please complete this task on a desktop computer using firefox or chrome.
+
+## FAQs
+
+The link to the experiment contains a consent form that explains how we will use the data in more detail. We provide even more information on our [about page](../../../about.qmd). Thank you for considering participation in this experiment.

@@ -16,9 +16,9 @@ website:
     left:
       - href: index.qmd
         text: Participate
-      - href: experiments/New Research/index.qmd
+      - href: experiments/new-research/
         text: New Research
-      - href: experiments/Cognition Lab/index.qmd
+      - href: experiments/cognition-lab/
         text: Intro Cognition Lab
     right: 
       - about.qmd

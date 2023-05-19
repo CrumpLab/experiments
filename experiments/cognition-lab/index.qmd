@@ -1,5 +1,5 @@
 ---
-title: "Cognition Lab"
+title: "Intro Cognition Lab"
 order: 2
 listing: 
   type: default

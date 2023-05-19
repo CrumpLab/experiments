@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Matt Crump">
+<meta name="description" content="A selective attention task to identify target letters among distractor letters as quickly and accurately as possible.">
 
-<title>experiments - New Research</title>
+<title>experiments - Flanker Task</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,27 +22,44 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
-<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../../">
-<script src="../../site_libs/quarto-listing/list.min.js"></script>
-<script src="../../site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="../../site_libs/quarto-html/quarto.js"></script>
-<script src="../../site_libs/quarto-html/popper.min.js"></script>
-<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../">
+<script src="../../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -60,40 +79,9 @@ ul.task-list li input[type="checkbox"] {
     "search-submit-button-title": "Submit"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-new_research_listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
 
-    const options = {
-      valueNames: ['listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-new_research_listing'] = new List('listing-new_research_listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<link rel="stylesheet" href="../../styles.css">
+<link rel="stylesheet" href="../../../styles.css">
 </head>
 
 <body class="nav-fixed">
@@ -103,7 +91,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container">
-    <a class="navbar-brand" href="../../index.html">
+    <a class="navbar-brand" href="../../../index.html">
     <span class="navbar-title">experiments</span>
     </a>
   </div>
@@ -114,21 +102,21 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../index.html" rel="" target="">
+    <a class="nav-link" href="../../../index.html" rel="" target="">
  <span class="menu-text">Participate</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="../../experiments/New Research/index.html" rel="" target="" aria-current="page">
+    <a class="nav-link" href="../../../experiments/new-research/" rel="" target="">
  <span class="menu-text">New Research</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../experiments/Cognition Lab/index.qmd" rel="" target="">
+    <a class="nav-link" href="../../../experiments/cognition-lab/" rel="" target="">
  <span class="menu-text">Intro Cognition Lab</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../about.html" rel="" target="">
+    <a class="nav-link" href="../../../about.html" rel="" target="">
  <span class="menu-text">About</span></a>
   </li>  
 </ul>
@@ -139,24 +127,49 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(1)</span></div><div class="category" data-category="memory">memory <span class="quarto-category-count">(1)</span></div></div></div>
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#background" id="toc-background" class="nav-link active" data-scroll-target="#background">Background</a></li>
+  <li><a href="#try-the-flanker-experiment" id="toc-try-the-flanker-experiment" class="nav-link" data-scroll-target="#try-the-flanker-experiment">Try the Flanker Experiment</a></li>
+  <li><a href="#understanding-the-experiment" id="toc-understanding-the-experiment" class="nav-link" data-scroll-target="#understanding-the-experiment">Understanding the experiment</a></li>
+  <li><a href="#predictions" id="toc-predictions" class="nav-link" data-scroll-target="#predictions">Predictions</a></li>
+  <li><a href="#results" id="toc-results" class="nav-link" data-scroll-target="#results">Results</a></li>
+  <li><a href="#appendix" id="toc-appendix" class="nav-link" data-scroll-target="#appendix">Appendix</a></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
-<main class="content page-columns page-full column-page-left" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">New Research</h1>
-</div>
+<h1 class="title">Flanker Task</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">attention</div>
+  </div>
+  </div>
 
+<div>
+  <div class="description">
+    A selective attention task to identify target letters among distractor letters as quickly and accurately as possible.
+  </div>
+</div>
 
 
 <div class="quarto-title-meta">
 
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Matt Crump </p>
+          </div>
+  </div>
     
   
     
@@ -165,60 +178,37 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-
-<div class="no-row-height column-margin column-container"><div class="">
-<div class="cell">
-<div class="cell-output-display">
-<p><img src="../../imgs/ccl.png" class="quarto-discovered-preview-image img-fluid" width="500"></p>
-</div>
-</div>
-</div></div><p>This section contains links to participate in our most current ongoing experiments. Visit the <a href="../../about.html">about</a> page for general information about participation.</p>
-<p>Thank you for your participation!</p>
-<hr>
-<div id="listing-new_research_listing" class="quarto-listing quarto-listing-container-default">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="memory" data-listing-file-modified-sort="1684520428854" data-listing-reading-time-sort="2">
-<div class="thumbnail">
-<p><a href="../../experiments/New Research/Directed Forgetting/Directed_forgetting.html"> <img src="../../experiments/New Research/Directed Forgetting/imgs/DF.png" class="thumbnail-image"> </a></p>
-</div>
-<div class="body">
-<a href="../../experiments/New Research/Directed Forgetting/Directed_forgetting.html">
-<h3 class="no-anchor listing-title">
-Directed forgetting for pictures of natural scenes
-</h3>
-<div class="listing-subtitle">
-
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('memory'); return false;">
-memory
-</div>
-</div>
-<a href="../../experiments/New Research/Directed Forgetting/Directed_forgetting.html">
-<div class="listing-description">
-<p>Attempt to intentionally forget or remember pictures of natural scenes. Takes about 20 minutes</p>
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="../../experiments/New Research/Directed Forgetting/Directed_forgetting.html">
-<div class="listing-author">
-Drew Shives, Matthew Crump
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div>
+<section id="background" class="level2">
+<h2 class="anchored" data-anchor-id="background">Background</h2>
+<p>This is a replication of <span class="citation" data-cites="eriksen1974">Eriksen and Eriksen (<a href="#ref-eriksen1974" role="doc-biblioref">1974</a>)</span>. The task involves responding to a target letter as quickly and accurately as possible. Importantly, the target letter may be “flanked” by distractor letters presented on both sides of the target.</p>
+<p><img src="imgs/flanker.png" class="quarto-discovered-preview-image img-fluid"></p>
+<p>A general question was whether responses to the target letter would be influenced by the presence of distracting letter.</p>
+</section>
+<section id="try-the-flanker-experiment" class="level2">
+<h2 class="anchored" data-anchor-id="try-the-flanker-experiment">Try the Flanker Experiment</h2>
+<p><a href="flanker.html">Try a flanker task</a></p>
+</section>
+<section id="understanding-the-experiment" class="level2">
+<h2 class="anchored" data-anchor-id="understanding-the-experiment">Understanding the experiment</h2>
+</section>
+<section id="predictions" class="level2">
+<h2 class="anchored" data-anchor-id="predictions">Predictions</h2>
+</section>
+<section id="results" class="level2">
+<h2 class="anchored" data-anchor-id="results">Results</h2>
+</section>
+<section id="appendix" class="level2">
 
 
 
 
-</main> <!-- /main -->
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography"><h2 class="anchored quarto-appendix-heading">Appendix</h2><div id="refs" class="references csl-bib-body hanging-indent" role="list">
+<div id="ref-eriksen1974" class="csl-entry" role="listitem">
+Eriksen, Barbara A., and Charles W. Eriksen. 1974. <span>“Effects of Noise Letters Upon the Identification of a Target Letter in a Nonsearch Task.”</span> <em>Perception &amp; Psychophysics</em> 16 (1): 143149. <a href="https://doi.org/10.3758/BF03203267">https://doi.org/10.3758/BF03203267</a>.
+</div>
+</div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

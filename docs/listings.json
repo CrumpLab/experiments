@@ -1,14 +1,15 @@
 [
   {
-    "listing": "/experiments/Cognition lab/index.html",
+    "listing": "/experiments/cognition-lab/index.html",
     "items": [
-      "/experiments/Cognition lab/flanker/Flanker.html"
+      "/experiments/cognition-lab/flanker/Flanker.html"
     ]
   },
   {
-    "listing": "/experiments/New Research/index.html",
+    "listing": "/experiments/new-research/index.html",
     "items": [
-      "/experiments/New Research/Directed Forgetting/Directed_forgetting.html"
+      "/experiments/new-research/directed-forgetting/Directed_forgetting.html",
+      "/experiments/new-research/self-reference/self-reference.html"
     ]
   }
 ]
